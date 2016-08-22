@@ -27,3 +27,7 @@ Der WAN-Port (blau bei TP-Link) macht standardmässig entweder Mesh-VPN (VPN-upl
 Kann ich Uplink über WLAN machen statt über Kabel?
 --------------
 Prinzipiell ja. Allerdings ist es nicht sehr Effizient, da dann schon Mesh, client-Netz, alle clients sowie der Router zu dem als Uplink verbunden wird auf dem selben Kanal funken. Hinzu kommen evtl. Geräte aus der Nachbarschaft, die vielleicht auch auf diesem Kanal sind.
+
+Kann ich einen Freifunk-Knoten hinter dem Gastzugang einer Fritzbox betreiben?
+--------------
+Ja! Man muss allerdings in den Filterregeln der Fritzbox für den Gastzugang die Ports 10000 und 10001 (beide UDP) freigeben.
